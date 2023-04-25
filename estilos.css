@@ -1,0 +1,265 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 16px;
+    font-family: helvetica;
+    line-height: 24px;
+    color: #333;
+  }
+  html{
+    scroll-behavior: smooth ;
+  }
+  .ancho {
+    /* border: 1px red solid; */
+    max-width: 1200px;
+    margin: auto;
+  }
+  .header{
+    background-color: #e2eaf3;
+  }
+  .caja1{
+    display: inline-block;
+  }
+  .email img{
+    width: 30px;
+  }
+  .telefono img{
+    width: 30px;
+  }
+  .telefono a{
+    margin-left:800px;
+  }
+  /* Menu */
+  .caja2{
+    display: inline-block;
+    vertical-align:top;
+  }
+  .contenido2{
+    padding: 20px 0px;
+  }
+  .logo img{
+    width: 150px;
+    
+  }
+  .menu{
+    margin-left: 370px;
+  }
+  .menu a{
+    /* border: 1px red solid; */
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 20px;
+    margin-left: 5px;
+    color: black;
+  }
+  .menu button{
+    padding: 5px 20px;
+    display: inline-block;
+    border: 0;
+    background-color: #ff4e00;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+  }
+
+  /* MARKETON-SLIDE 1 */
+  .caja3 {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .marketon{
+    background-color: #fc7d11;
+  }
+  .contenido3{
+    padding: 100px 0px ;
+  }
+  .imagen_marketon img{
+    width: 300px;
+  }
+  .imagen_marketon{
+    display: inline-block;
+    margin-left: 100px;
+  }
+  .informacion_marketon{
+    display:inline-block;
+    vertical-align: top;
+    width:400px;
+    margin-left: 300px;
+    color: white;
+    line-height: 30px;
+  }
+  .informacion_marketon h1, h2, p{
+    margin-bottom: 10px;
+  }
+  .informacion_marketon a{
+    /* border: 1px red solid; */
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 30px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 30px;
+  }
+  .slide2{
+    background-color: #e2eaf3;
+  }
+  .contenido4{
+    text-align: center;
+    padding: 70px;
+  }
+  .contenido4 h1{
+    margin-bottom: 50px;
+  }
+
+  .info_slide2{
+    width: 550px;
+    text-align: left;
+  }
+  .video iframe{
+    border-radius: 10px;
+    margin-right: 100px;
+  }
+  .info_slide2 a{
+    border: 1px red solid;
+    padding: 15px 50px;
+    display: inline-block;
+    border: 0;
+    background-color: #ff4e00;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  /* slide 3 */
+  .contenido5{
+    text-align: center;
+    padding: 70px;
+  }
+  .contenido5 h1{
+    margin-bottom: 50px;
+  }
+  .caja4{
+    border: 2px #e2eaf3 solid;
+    display: inline-block;
+    width: 300px;
+    margin-right: 20px;
+    padding: 30px 15px ;
+    border-radius:10px;
+  }
+  .contenido5 hr{
+    width: 50px;
+    margin: auto;
+    height: 5px;
+    border: 0;
+    background-color: #22bc3c;
+    margin-bottom: 5px ;
+  }
+
+  /* slide 4 */
+  .slide4{
+    background-color: #2db7f4;
+  }
+  .contenido6{
+    text-align: center;
+    padding: 70px;
+  }
+  .contenido6 h1{
+    margin-bottom: 50px;
+    color: white;
+  }
+  .caja5{
+    /* border: 1px red solid; */
+    display: inline-block;
+    background-color: #fff;
+    margin-left: 20px;
+    border-radius: 10px;
+  }
+  table td{
+    border-bottom: 1px #e2eaf3 solid;
+    padding: 5px;
+  }
+  table th{
+    background-color: #e2eaf3;
+    padding: 15px;
+  }
+  table a{
+    border: 1px red solid;
+    padding: 15px 50px;
+    display: inline-block;
+    border: 0;
+    background-color: #ff4e00;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  /* slide 5 */
+  .contenido7{
+    padding: 70px;
+  }
+  .contacto h1{
+    margin-bottom: 50px;
+  }
+  .contacto img{
+    width: 40px;
+  }
+  .contacto h3{
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .formulario{
+    margin-left: 300px;
+    text-align: right;
+    margin-top: 200px;
+  }
+  input{
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    border: 0;
+    border: 1px #e2eaf3 solid;
+  }
+  textarea{
+    width: 400px;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    border: 0;
+    border: 1px #e2eaf3 solid;
+    resize: none;
+    font-family: helvetica;
+  }
+  button{
+    border: 1px red solid;
+    padding: 15px 50px;
+    display: inline-block;
+    border: 0;
+    background-color: #ff4e00;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    
+  }
+
+  /* colores */
+  .azul{
+    color: #2db7f4;
+  }
+  .gris{
+    color: #e2eaf3;
+  }
+  .naranja{
+    color: #ff4e00;
+    font-weight: bold;
+    font-size: 30px;
+  }
